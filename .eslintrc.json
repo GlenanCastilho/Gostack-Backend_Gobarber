@@ -1,0 +1,15 @@
+{
+  "env": {
+    "jest": true,
+  },
+    "rules": {
+    "@typescript-eslint/naming-convention": [
+        "error",
+        {
+          "selector": "interface",
+          "prefix": ["I"],
+          "format": ["PascalCase"]
+        }
+      ]
+    }
+}
