@@ -59,12 +59,14 @@
   <br>
   <br>
   
+  Criar container com instância do mongo:
+  <br>
+  $ docker run --name mongodb -p 27017:27017 -d -t mongo
+  
   Instalar as dependências:
   <br>
   $ yarn
   
-  <br>
-  <br>
   
   Rodar a aplicação:
   <br>
