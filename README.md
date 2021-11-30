@@ -63,6 +63,10 @@
   <br>
   $ docker run --name mongodb -p 27017:27017 -d -t mongo
   
+  Criar  container com instância do redis:
+  <br>
+  $ docker run --name redis -p 6379:6379 -d -t redis:alpine
+  
   Instalar as dependências:
   <br>
   $ yarn
