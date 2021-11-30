@@ -71,8 +71,11 @@
   <br>
   $ yarn
   
+  Executar as migrations:
+  <br>
+  $ yarn typeorm migration:run
   
   Rodar a aplicação:
   <br>
-  $ yarn start
+  $ yarn dev:server
 </h4>
